@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+/*HEADER*/
+header{
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  background-color: #081200;
+}
+
+/*SIDEBAR*/
+nav{
+  background-color: #000;
+  width: 250px;
+  height: calc( 100vh - 100px);
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav .logo {
+  margin: 15px 0;
+}
+
+.sidenav .logo > i {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sidenav .logo img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.sidenav li {
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-left: 4px solid transparent;
+}
+
+.sidenav ul > li:target {
+  border-left: 4px solid #77c400;
+}
+
+.sidenav a:hover i{
+  color: #ffffff;
+}
+
+.sidenav a:hover span{
+  color: #ffffff;
+}
+/*ancora devo finire la sidebar*/
+
+/*MAIN*/
+main{
+  background-color: #141922;
+} /*ancora devo finire il main*/
+
+/*FOOTER*/
+footer{
+ background-color: #282828;
+}
+/*this sucks. nothing works*/
